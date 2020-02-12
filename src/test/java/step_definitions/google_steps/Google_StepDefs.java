@@ -27,8 +27,6 @@ public class Google_StepDefs {
 
     }
 
-
-
     @When("User clicks to search button")
     public void user_clicks_to_search_button() {
         //googleLandingPage.searchButton.click();
@@ -51,5 +49,4 @@ public class Google_StepDefs {
         googleLandingPage.searchBox.sendKeys("wooden spoon" + Keys.ENTER);
 
     }
-
 }
